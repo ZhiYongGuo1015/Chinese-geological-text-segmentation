@@ -1,0 +1,77 @@
+2022-04-05 20:56:59,823:INFO: Namespace(CRF=True, batch_size=64, clip=5.0, demo_model='', dropout=0.5, embedding_dim=300, epoch=40, hidden_dim=300, lr=0.005, mode='test', optimizer='Adam', pretrain_embedding='random', shuffle=True, test_data='data_path', train_data='data_path', update_embedding=True)
+2022-04-05 20:56:59,826:WARNING: From D:\Pycharm\MD\1109\zh-NER-TF-master\tp\tpmodel.py:46: The name tf.placeholder is deprecated. Please use tf.compat.v1.placeholder instead.
+
+2022-04-05 20:56:59,826:WARNING: From D:\Pycharm\MD\1109\zh-NER-TF-master\tp\tpmodel.py:46: The name tf.placeholder is deprecated. Please use tf.compat.v1.placeholder instead.
+
+2022-04-05 20:56:59,832:WARNING: From D:\Pycharm\MD\1109\zh-NER-TF-master\tp\tpmodel.py:54: The name tf.variable_scope is deprecated. Please use tf.compat.v1.variable_scope instead.
+
+2022-04-05 20:56:59,832:WARNING: From D:\Pycharm\MD\1109\zh-NER-TF-master\tp\tpmodel.py:54: The name tf.variable_scope is deprecated. Please use tf.compat.v1.variable_scope instead.
+
+2022-04-05 20:56:59,854:WARNING: From D:\Pycharm\MD\1109\zh-NER-TF-master\tp\tpmodel.py:62: calling dropout (from tensorflow.python.ops.nn_ops) with keep_prob is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `rate` instead of `keep_prob`. Rate should be set to `rate = 1 - keep_prob`.
+2022-04-05 20:56:59,854:WARNING: From D:\Pycharm\MD\1109\zh-NER-TF-master\tp\tpmodel.py:62: calling dropout (from tensorflow.python.ops.nn_ops) with keep_prob is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `rate` instead of `keep_prob`. Rate should be set to `rate = 1 - keep_prob`.
+2022-04-05 20:56:59,866:WARNING: From D:\Pycharm\MD\1109\zh-NER-TF-master\tp\tpmodel.py:66: LSTMCell.__init__ (from tensorflow.python.ops.rnn_cell_impl) is deprecated and will be removed in a future version.
+Instructions for updating:
+This class is equivalent as tf.keras.layers.LSTMCell, and will be replaced by that in Tensorflow 2.0.
+2022-04-05 20:56:59,866:WARNING: From D:\Pycharm\MD\1109\zh-NER-TF-master\tp\tpmodel.py:66: LSTMCell.__init__ (from tensorflow.python.ops.rnn_cell_impl) is deprecated and will be removed in a future version.
+Instructions for updating:
+This class is equivalent as tf.keras.layers.LSTMCell, and will be replaced by that in Tensorflow 2.0.
+2022-04-05 20:56:59,869:WARNING: From D:\Pycharm\MD\1109\zh-NER-TF-master\tp\tpmodel.py:73: bidirectional_dynamic_rnn (from tensorflow.python.ops.rnn) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `keras.layers.Bidirectional(keras.layers.RNN(cell))`, which is equivalent to this API
+2022-04-05 20:56:59,869:WARNING: From D:\Pycharm\MD\1109\zh-NER-TF-master\tp\tpmodel.py:73: bidirectional_dynamic_rnn (from tensorflow.python.ops.rnn) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `keras.layers.Bidirectional(keras.layers.RNN(cell))`, which is equivalent to this API
+2022-04-05 20:56:59,875:WARNING: From D:\Anaconda3\envs\tensorflow\lib\site-packages\tensorflow\python\ops\rnn.py:464: dynamic_rnn (from tensorflow.python.ops.rnn) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `keras.layers.RNN(cell)`, which is equivalent to this API
+2022-04-05 20:56:59,875:WARNING: From D:\Anaconda3\envs\tensorflow\lib\site-packages\tensorflow\python\ops\rnn.py:464: dynamic_rnn (from tensorflow.python.ops.rnn) is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `keras.layers.RNN(cell)`, which is equivalent to this API
+2022-04-05 20:56:59,939:WARNING: From D:\Anaconda3\envs\tensorflow\lib\site-packages\tensorflow\python\ops\init_ops.py:1251: calling VarianceScaling.__init__ (from tensorflow.python.ops.init_ops) with dtype is deprecated and will be removed in a future version.
+Instructions for updating:
+Call initializer instance with the dtype argument instead of passing it to the constructor
+2022-04-05 20:56:59,939:WARNING: From D:\Anaconda3\envs\tensorflow\lib\site-packages\tensorflow\python\ops\init_ops.py:1251: calling VarianceScaling.__init__ (from tensorflow.python.ops.init_ops) with dtype is deprecated and will be removed in a future version.
+Instructions for updating:
+Call initializer instance with the dtype argument instead of passing it to the constructor
+2022-04-05 20:56:59,951:WARNING: From D:\Anaconda3\envs\tensorflow\lib\site-packages\tensorflow\python\ops\rnn_cell_impl.py:961: calling Zeros.__init__ (from tensorflow.python.ops.init_ops) with dtype is deprecated and will be removed in a future version.
+Instructions for updating:
+Call initializer instance with the dtype argument instead of passing it to the constructor
+2022-04-05 20:56:59,951:WARNING: From D:\Anaconda3\envs\tensorflow\lib\site-packages\tensorflow\python\ops\rnn_cell_impl.py:961: calling Zeros.__init__ (from tensorflow.python.ops.init_ops) with dtype is deprecated and will be removed in a future version.
+Instructions for updating:
+Call initializer instance with the dtype argument instead of passing it to the constructor
+2022-04-05 20:57:00,039:WARNING: Entity <bound method LSTMCell.call of <tensorflow.python.ops.rnn_cell_impl.LSTMCell object at 0x00000154202F5F28>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: converting <bound method LSTMCell.call of <tensorflow.python.ops.rnn_cell_impl.LSTMCell object at 0x00000154202F5F28>>: AttributeError: module 'gast' has no attribute 'Index'
+2022-04-05 20:57:00,039:WARNING: Entity <bound method LSTMCell.call of <tensorflow.python.ops.rnn_cell_impl.LSTMCell object at 0x00000154202F5F28>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: converting <bound method LSTMCell.call of <tensorflow.python.ops.rnn_cell_impl.LSTMCell object at 0x00000154202F5F28>>: AttributeError: module 'gast' has no attribute 'Index'
+2022-04-05 20:57:00,055:WARNING: From D:\Anaconda3\envs\tensorflow\lib\site-packages\tensorflow\python\ops\rnn.py:244: add_dispatch_support.<locals>.wrapper (from tensorflow.python.ops.array_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.where in 2.0, which has the same broadcast rule as np.where
+2022-04-05 20:57:00,055:WARNING: From D:\Anaconda3\envs\tensorflow\lib\site-packages\tensorflow\python\ops\rnn.py:244: add_dispatch_support.<locals>.wrapper (from tensorflow.python.ops.array_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.where in 2.0, which has the same broadcast rule as np.where
+2022-04-05 20:57:00,157:WARNING: Entity <bound method LSTMCell.call of <tensorflow.python.ops.rnn_cell_impl.LSTMCell object at 0x00000154204E4C88>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: converting <bound method LSTMCell.call of <tensorflow.python.ops.rnn_cell_impl.LSTMCell object at 0x00000154204E4C88>>: AttributeError: module 'gast' has no attribute 'Index'
+2022-04-05 20:57:00,157:WARNING: Entity <bound method LSTMCell.call of <tensorflow.python.ops.rnn_cell_impl.LSTMCell object at 0x00000154204E4C88>> could not be transformed and will be executed as-is. Please report this to the AutgoGraph team. When filing the bug, set the verbosity to 10 (on Linux, `export AUTOGRAPH_VERBOSITY=10`) and attach the full output. Cause: converting <bound method LSTMCell.call of <tensorflow.python.ops.rnn_cell_impl.LSTMCell object at 0x00000154204E4C88>>: AttributeError: module 'gast' has no attribute 'Index'
+2022-04-05 20:57:00,197:WARNING: From D:\Pycharm\MD\1109\zh-NER-TF-master\tp\tpmodel.py:78: The name tf.get_variable is deprecated. Please use tf.compat.v1.get_variable instead.
+
+2022-04-05 20:57:00,197:WARNING: From D:\Pycharm\MD\1109\zh-NER-TF-master\tp\tpmodel.py:78: The name tf.get_variable is deprecated. Please use tf.compat.v1.get_variable instead.
+
+2022-04-05 20:57:00,390:WARNING: From D:\Pycharm\MD\1109\zh-NER-TF-master\tp\tpmodel.py:108: The name tf.summary.scalar is deprecated. Please use tf.compat.v1.summary.scalar instead.
+
+2022-04-05 20:57:00,390:WARNING: From D:\Pycharm\MD\1109\zh-NER-TF-master\tp\tpmodel.py:108: The name tf.summary.scalar is deprecated. Please use tf.compat.v1.summary.scalar instead.
+
+2022-04-05 20:57:00,400:WARNING: From D:\Pycharm\MD\1109\zh-NER-TF-master\tp\tpmodel.py:119: The name tf.train.AdamOptimizer is deprecated. Please use tf.compat.v1.train.AdamOptimizer instead.
+
+2022-04-05 20:57:00,400:WARNING: From D:\Pycharm\MD\1109\zh-NER-TF-master\tp\tpmodel.py:119: The name tf.train.AdamOptimizer is deprecated. Please use tf.compat.v1.train.AdamOptimizer instead.
+
+2022-04-05 20:57:01,387:WARNING: From D:\Pycharm\MD\1109\zh-NER-TF-master\tp\tpmodel.py:138: The name tf.global_variables_initializer is deprecated. Please use tf.compat.v1.global_variables_initializer instead.
+
+2022-04-05 20:57:01,387:WARNING: From D:\Pycharm\MD\1109\zh-NER-TF-master\tp\tpmodel.py:138: The name tf.global_variables_initializer is deprecated. Please use tf.compat.v1.global_variables_initializer instead.
+
+2022-04-05 20:57:01,396:WARNING: From D:\Pycharm\MD\1109\zh-NER-TF-master\tp\tpmodel.py:166: The name tf.train.Saver is deprecated. Please use tf.compat.v1.train.Saver instead.
+
+2022-04-05 20:57:01,396:WARNING: From D:\Pycharm\MD\1109\zh-NER-TF-master\tp\tpmodel.py:166: The name tf.train.Saver is deprecated. Please use tf.compat.v1.train.Saver instead.
+
+2022-04-05 20:57:02,019:INFO: =========== testing ===========
+2022-04-05 20:57:02,019:INFO: =========== testing ===========
