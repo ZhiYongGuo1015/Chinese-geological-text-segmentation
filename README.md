@@ -11,4 +11,4 @@ by Zhiyong Guo, Jiqiu Deng*,Yu Zou, Yu Tang
 ## Usage
   File name “Corpus” contains segmentation standard documents   
   terms_ Cut10.py is the TCPM model code   
-  zh-NER-TF-master: "Chinese geometric text segmentation/zh NER TF master/tp/tpmain. py" contains machine learning code (machine learning environment needs to be built on the computer in advance)
+  File name “zh-NER-TF-master”: "Chinese geometric text segmentation/zh NER TF master/tp/tpmain. py" contains machine learning code (machine learning environment needs to be built on the computer in advance)
