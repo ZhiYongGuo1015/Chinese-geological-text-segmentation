@@ -4,3 +4,5 @@ by Zhiyong Guo, Jiqiu Deng*,Yu Zou, Yu Tang
 
 ## Program language
  <li>Python</li>
+## Dependencies required
+<li>Python3.6 or higher</li>
